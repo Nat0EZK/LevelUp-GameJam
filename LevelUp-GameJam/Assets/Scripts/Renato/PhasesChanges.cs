@@ -1,0 +1,25 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class PhasesChanges : MonoBehaviour
+{
+    // Cambiar a la escena Cueva 
+    public void ChangeCueva()
+    {
+        SceneManager.LoadScene("Cueva");
+    }
+
+    // Cambiar a la escena Rio
+    public void ChangeRio()
+    {
+        SceneManager.LoadScene("Rio");
+    }
+
+    // Cambiar a la escena Oasis
+    public void ChangeOasis()
+    {
+        SceneManager.LoadScene("Oasis");
+    }
+}
