@@ -9,6 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< Updated upstream
   m_Script: {fileID: 0}
   m_Name: Built In Data
   m_EditorClassIdentifier: Unity.Addressables.Editor:UnityEditor.AddressableAssets.Settings:AddressableAssetGroup
@@ -16,6 +17,15 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: eb32ddd452d52fc45934b6d51810fbc0
+=======
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Built In Data
+  m_EditorClassIdentifier: 
+  m_GroupName: Built In Data
+  m_Data:
+    m_SerializedData: []
+  m_GUID: c9e5a9dd62f06384caf43f14f51ed935
+>>>>>>> Stashed changes
   m_SerializeEntries:
   - m_GUID: Resources
     m_Address: Resources

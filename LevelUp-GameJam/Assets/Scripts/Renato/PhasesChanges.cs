@@ -5,6 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class PhasesChanges : MonoBehaviour
 {
+
+    [SerializeField] private GameObject gamePanel;
+    [SerializeField] private GameObject huntingPanel;
+    [SerializeField] private GameObject uiHuntingPanel;
+
     // Cambiar a la escena Cueva 
     public void ChangeCueva()
     {
@@ -21,5 +26,13 @@ public class PhasesChanges : MonoBehaviour
     public void ChangeOasis()
     {
         SceneManager.LoadScene("Oasis");
+    }
+
+    // Cambiar al Panel QuickTimeEvent Hunting 
+    public void ChangeHunting()
+    {
+        gamePanel.SetActive(false);
+        huntingPanel.SetActive(true);
+        uiHuntingPanel.SetActive(true);
     }
 }

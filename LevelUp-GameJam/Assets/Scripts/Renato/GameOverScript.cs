@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 public class GameOverScript : MonoBehaviour
 {
 
-    [SerializeField] private GameObject Game; // Asigna el Panel Game
-    [SerializeField] private GameObject GameOver; // Asigna el Panel Game Over
-    [SerializeField] private int LionsCount; // Contador de Leones
+    [SerializeField] private GameObject game; // Asigna el Panel Game
+    [SerializeField] private GameObject gameOver; // Asigna el Panel Game Over
+    [SerializeField] private int lionsCount; // Contador de Leones
     [SerializeField] private int CrazyValue; // Barra de Locura
     [SerializeField] private bool LoseBossFinal = false; // Pelea vs BossFinal
 
@@ -15,18 +15,18 @@ public class GameOverScript : MonoBehaviour
     public void OnGameOver()
     {
         // Verifica si se cumple una de las siguientes Losing Conditions para activar el Panel GamerOver
-        if (LionsCount <= 0 || CrazyValue == 50 || LoseBossFinal == true)
+        if (lionsCount <= 0 || CrazyValue == 50 || LoseBossFinal == true)
         {
-            GameOver.SetActive(true);
-            Game.SetActive(false); 
+            gameOver.SetActive(true);
+            game.SetActive(false); 
         }
     }
 
     // Funcion para Activar el Panel Game
     public void OffGameOver()
     {
-        Game.SetActive(true);
-        GameOver.SetActive(false);
+        game.SetActive(true);
+        gameOver.SetActive(false);
     }
 
     // Funcion para ir al Menu Principal 

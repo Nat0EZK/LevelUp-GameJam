@@ -9,10 +9,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< Updated upstream
   m_Script: {fileID: 0}
   m_Name: AddressableAssetSettings
   m_EditorClassIdentifier: Unity.Addressables.Editor:UnityEditor.AddressableAssets.Settings:AddressableAssetSettings
   m_DefaultGroup: 301f7c44089a479489bbcfe833eaef9a
+=======
+  m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
+  m_Name: AddressableAssetSettings
+  m_EditorClassIdentifier: 
+  m_DefaultGroup: 2263e51e48fe674489e439ed3d531f19
+>>>>>>> Stashed changes
   m_currentHash:
     serializedVersion: 2
     Hash: 00000000000000000000000000000000
@@ -54,6 +61,7 @@ MonoBehaviour:
   m_ProfileSettings:
     m_Profiles:
     - m_InheritedParent: 
+<<<<<<< Updated upstream
       m_Id: 669cbabcbe0c0dc4e8b87f86ecb287a0
       m_ProfileName: Default
       m_Values:
@@ -81,6 +89,35 @@ MonoBehaviour:
       m_Name: Remote.BuildPath
       m_InlineUsage: 0
     - m_Id: 89810211d35bfb04dacd929358adc44d
+=======
+      m_Id: 423bf91c22c82dc46a043915e8826844
+      m_ProfileName: Default
+      m_Values:
+      - m_Id: e72efca3bf043c84186de46e3a8644d7
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: 0a3edc67fa9895d449311eb67105d421
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: 5903cf5082d359443a894ef5a9d63ab0
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: 5670b56a8285f0346899c33877fbd0f0
+        m_Value: ServerData/[BuildTarget]
+      - m_Id: c5716ef4dccdd0f47a0829ddb2a09d02
+        m_Value: http://[PrivateIpAddress]:[HostingServicePort]
+    m_ProfileEntryNames:
+    - m_Id: e72efca3bf043c84186de46e3a8644d7
+      m_Name: BuildTarget
+      m_InlineUsage: 0
+    - m_Id: 0a3edc67fa9895d449311eb67105d421
+      m_Name: Local.BuildPath
+      m_InlineUsage: 0
+    - m_Id: 5903cf5082d359443a894ef5a9d63ab0
+      m_Name: Local.LoadPath
+      m_InlineUsage: 0
+    - m_Id: 5670b56a8285f0346899c33877fbd0f0
+      m_Name: Remote.BuildPath
+      m_InlineUsage: 0
+    - m_Id: c5716ef4dccdd0f47a0829ddb2a09d02
+>>>>>>> Stashed changes
       m_Name: Remote.LoadPath
       m_InlineUsage: 0
     m_ProfileVersion: 1
@@ -100,7 +137,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 8b83e29d15d00024db04708cafc9d282, type: 2}
   - {fileID: 11400000, guid: 1b412e73220dfd84bba5ba56bb9f25f7, type: 2}
   - {fileID: 11400000, guid: cc4685d6048478d449de6b180cc53a71, type: 2}
+<<<<<<< Updated upstream
   m_ActiveProfileId: 669cbabcbe0c0dc4e8b87f86ecb287a0
+=======
+  m_ActiveProfileId: 423bf91c22c82dc46a043915e8826844
+>>>>>>> Stashed changes
   m_HostingServicesManager:
     m_HostingServiceInfos: []
     m_Settings: {fileID: 11400000}
