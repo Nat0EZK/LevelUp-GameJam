@@ -7,6 +7,9 @@ TagManager:
   - Inteligente
   - Loco
   - Minigame
+  - Animal
+  - Animal1
+  - GamePanel
   layers:
   - Default
   - TransparentFX

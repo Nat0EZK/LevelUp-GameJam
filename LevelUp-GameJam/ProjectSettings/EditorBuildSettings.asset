@@ -11,4 +11,5 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Renato/MenuGameOver.unity
     guid: e2acb1b85563f664eaa9eb8679595152
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: cca64d31c604ccc45b621ace16ca1061, type: 2}
