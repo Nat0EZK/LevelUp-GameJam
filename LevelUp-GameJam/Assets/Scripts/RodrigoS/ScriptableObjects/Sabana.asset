@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66f03df0c5794fd409d7217b91b0b41d, type: 3}
+  m_Name: Sabana
+  m_EditorClassIdentifier: 
+  fase: Sabana
+  tarjetas:
+  - {fileID: 11400000, guid: 64b46c36bde5b06489160b68e934bc41, type: 2}
+  - {fileID: 11400000, guid: 2c6a343e8cb1a854793fd3545dfdaa2c, type: 2}
+  - {fileID: 11400000, guid: c12712e4e81fcb64181e151fec7f1cbe, type: 2}
